@@ -1,0 +1,28 @@
+site_name: 数统选课指南
+theme:
+  language: zh
+  name: material
+  custom_dir: overrides
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: cyan
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: blue grey
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.expand
+  font:
+    text: PT Serif
+  icon:
+    admonition:    # change icon of admonition
+      example: octicons/telescope-16
