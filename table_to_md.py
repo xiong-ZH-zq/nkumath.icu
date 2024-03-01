@@ -1,7 +1,8 @@
-import pandas as pd  
+import pandas as pd
 
-df = pd.read_excel(r'data\数统选课指南（记得屏蔽老师）.xlsx')  
-  
+# 导入选课表格
+df = pd.read_excel(r'data\数统选课指南.xlsx')
+
 for index, row in df.iterrows():
     course_id, course_name, course_giver = row['course'].split(' ',2)
     filename = f"docs\数院选课指南\{course_id}-{course_name}.md"  
