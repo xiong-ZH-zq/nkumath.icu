@@ -1,4 +1,6 @@
 site_name: 数统选课指南
+repo_name: mkumath.icu
+repo_url: https://github.com/xiong-ZH-zq/nkumath.icu
 theme:
   language: zh
   name: material
