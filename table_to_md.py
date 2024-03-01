@@ -10,7 +10,11 @@ for index, row in df.iterrows():
 
     print(course_name)
     
-    markdown_content = f""">[!info]+ 课程基本信息
+    markdown_content = f"""---
+comments: true
+---
+
+>[!info]+ 课程基本信息
 >
 > - 课程名称：{course_name}
 > - 授课老师：{course_giver}
