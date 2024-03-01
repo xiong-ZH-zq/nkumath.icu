@@ -9,7 +9,11 @@ for index, row in df.iterrows():
 
     print(course_name)
     
-    markdown_content = f"- 授课老师：{course_giver} \n\n"
+    markdown_content = f""">[!info]+ 课程基本信息
+>
+> - 课程名称：{course_name}
+> - 授课老师：{course_giver}
+\n"""
     with open(filename, 'w') as f:
         for i in range(1,8):
            markdown_content += f"## 评价{i}\n\n{row[f'评价{i}']}\n"  

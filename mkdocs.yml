@@ -26,3 +26,14 @@ theme:
   icon:
     admonition:    # change icon of admonition
       example: octicons/telescope-16
+
+markdown_extensions:
+  - meta
+  - nl2br
+  - admonition
+  - pymdownx.details
+
+plugins: 
+  - search
+  - callouts    # transform obsidian callout to material admonition
+  - tags
