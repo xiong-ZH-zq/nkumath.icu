@@ -1,17 +1,17 @@
 site_name: 数统选课指南
-repo_name: mkumath.icu
+repo_name: nkumath.icu
 repo_url: https://github.com/xiong-ZH-zq/nkumath.icu
 theme:
   language: zh
   name: material
   custom_dir: overrides
-  palette: 
+  palette:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
-      primary: cyan
+      primary: red
 
     # Palette toggle for dark mode
     - scheme: slate
@@ -26,7 +26,7 @@ theme:
   font:
     text: PT Serif
   icon:
-    admonition:    # change icon of admonition
+    admonition: # change icon of admonition
       example: octicons/telescope-16
 
 markdown_extensions:
@@ -35,7 +35,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-plugins: 
+plugins:
   - search
-  - callouts    # transform obsidian callout to material admonition
+  - callouts # transform obsidian callout to material admonition
   - tags

@@ -12,7 +12,6 @@ df = pd.read_excel(r'data\数统选课指南.xlsx')
 for index, row in df.iterrows():
     course_id, course_name, course_giver = row['course'].split(' ',2)
     filename = f"docs\数院选课指南\{course_id}-{course_name}.md"  
-    course_giver = course_giver[0] + '*'
 
     print(course_name)
     
